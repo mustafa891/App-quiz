@@ -17,12 +17,12 @@ const questions = [{
       {
         question: "قورئان چه‌ند حیزبه‌ ؟",
         choices: [65, 60 , 58, 30 ],
-        correctAnswer: "60 ",
+        correctAnswer: "60",
     },
     {
         question: "درێژترین ئایه‌ت له‌ چ سوره‌تێکه‌ ؟",
         choices: ["نور", "الدخان" , "الکهف", "البقره‌" ],
-        correctAnswer: "60 ",
+        correctAnswer: "البقره",
     }
 ];
 
