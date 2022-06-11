@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body class="bg-gradient-primary d-flex align-items-center justify-content-center">
+
+    <main class="card w-50  text-center">
+        <!-- Header -->
+        <div class="_header d-flex p-3 align-items-center justify-content-between">
+            <div class="title d-flex align-items-center">
+                <img class="mr-2" src="img/question-and-answer.png" width="50" alt="">
+                <h4 class="font-weight-bolder">Quiz App</h4>
+            </div>
+            <!-- Timer -->
+            <div class="timer float-right"><strong class="d-none time">10</strong></div>
+            <div class="underline"></div>
+        </div>
+        <!-- End Header -->
+
+        <!-- StarGame -->
+        
+        <div class="menu text-center m-auto pb-6">
+             <button id="startBtn" class="btn btn-primary">Let's PlayQuiz</button>
+        </div>
+
+        <!-- End StarGame -->
+
+        <!-- Quiz Content -->
+        <div class="quiz pl-4 p-4 float-left d-none">
+            
+            <div class="quiestion">
+                <h3>What is Your Name ?</h3>
+            </div>
+
+            <div class="answers">
+                <button class="btn btn-outline-primary  mt-4 mr-4">Answer 1</button>
+                <button class="btn btn-outline-primary  mt-4 mr-4">Answer 1</button> <br>
+                <button class="btn btn-outline-primary  mt-4 mr-4">Answer 1</button>
+                <button class="btn btn-outline-primary  mt-4 mr-4">Answer 1</button>
+            </div>
+
+        </div>
+        <!-- End Quiz Content -->
+
+
+    </main>
+
+    <script type="module" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
